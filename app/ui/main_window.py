@@ -102,7 +102,7 @@ class App(QWidget):
 
         assinatura = QLabel("By Noelly Costa")
         assinatura.setStyleSheet("color: gray; font-style: italic; font-size: 8pt;")
-        self.label_version = QLabel("Versão 1.2.0")
+        self.label_version = QLabel("Versão 1.2.1")
         self.label_version.setStyleSheet("color: gray; font-size: 10px; padding-left: 10px;")
 
         footer_layout = QHBoxLayout()
