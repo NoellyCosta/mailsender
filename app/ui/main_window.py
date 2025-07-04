@@ -60,7 +60,8 @@ class App(QWidget):
         label_unidade = QLabel("Escolha a unidade para aplicar em todos:")
         self.combo_unidade = QComboBox()
         self.combo_unidade.addItems(["Arapiraca", "Santana do Ipanema", "Garanhuns", "Itapipoca"])
-        self.combo_unidade.currentIndexChanged.connect(self.alterar_unidade_todos)
+        self.combo_unidade.activated.connect(self.alterar_unidade_todos)
+
 
         unidade_layout.addWidget(label_unidade)
         unidade_layout.addWidget(self.combo_unidade)
